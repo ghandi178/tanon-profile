@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+ <link rel="icon" href="img/Logo-Kabupaten-Kediri-Vector.jpg" type="image/x-icon" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <img  class="img-nav" src="/img/Logo-Kabupaten-Kediri-Vector.jpg" alt="">
+        <div class="title-navbar">
+            <h3>Desa Tanon, Kecamatan Papar <br>Kabupaten Kediri</h3>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="profile.html">Profile <span class="sr-only">(current)</span></a>
+            </li>
+          
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle text-body" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Data
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="agama.html">Data Agama</a>
+                <a class="dropdown-item" href="jumlah-penduduk.html">Data Kelompok Umur</a>
+                <a class="dropdown-item" href="pekerjaan.html">Data Pekerjaan</a>
+                <a class="dropdown-item" href="prasarana.html">Data Sarana & Prasarana Desa</a>
+
+              </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="berita.html">Berita <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="lembaga.html">Lembaga <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="pelayanan.html">Pelayanan <span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <i class="uil uil-search"></i>
+            <input class="form-control mr-sm-2" type="search" placeholder="ketik disini" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+          </form>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+      </nav>
+
+<!-- INI slideshow conatiner-->
+<div class="container animate__animated animate__pulse">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="img/WhatsApp Image 2022-03-24 at 20.18.02.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="img/1.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="img/2.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="img/3.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="img/4.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="img/5.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/WhatsApp Image 2022-03-24 at 20.18.02.jpeg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/4.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/5.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+
+
+<div class="berita">
+  <div class="title-content">
+    <h2>Berita Terkini</h2>
+    <h3> Berikut Adalah Berita Terkini Tentang Desa Kami</h2>
+  </div>
+  <div class="content">
+    <img src="/img/1.jpg" alt="">
+    <h5>Hari Jadi Desa Tanon</h5>
+    <p>Pada tanggal 13 Maret 2022 dilaksanakan acara sangat meriah berupa pertunjukan tari didepan balai desa yang disaksikan seluruh masyarakat desa tanon</p>
+  </div>
+  <div class="content">
+    <img src="/img/2.jpg" alt="">
+    <h5>Hari Jadi Desa Tanon</h5>
+    <p>Pada tanggal 13 Maret 2022 dilaksanakan acara sangat meriah berupa pertunjukan tari didepan balai desa yang disaksikan seluruh masyarakat desa tanon</p>
+  </div>
+  <div class="content">
+    <img src="/img/4.jpg" alt="">
+    <h5>Hari Jadi Desa Tanon</h5>
+    <p>Pada tanggal 13 Maret 2022 dilaksanakan acara sangat meriah berupa pertunjukan tari didepan balai desa yang disaksikan seluruh masyarakat desa tanon</p>
+  </div>
+</div>
+
+<div class="grub-penduduk">
+  <div class="penduduk">
+    <i class="uil uil-users-alt"></i>
+    <div class="jiwa">
+      <h3>3,1K</h3>
+      <p>Jumlah Penduduk</p>
+    </div>
+  </div>
+  <div class="penduduk">
+    <i class="uil uil-user-circle"></i>
+    <div class="jiwa">
+      <h3>2,4K</h3>
+      <p>Jumlah Orang Dewasa</p>
+    </div>
+  </div>
+  <div class="penduduk">
+    <i class="uil uil-estate"></i>
+    <div class="jiwa">
+      <h3>1,002K</h3>
+      <p>Jumlah Rumah</p>
+    </div>
+  </div>
+ 
+  <div class="penduduk">
+    <i class="uil uil-kid"></i>
+    <div class="jiwa">
+      <h3>0,732K</h3>
+      <p>Jumlah Anak-anak</p>
+    </div>
+  </div>
+</div>
+
+<!-- gallery -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5000ca" fill-opacity="1" d="M0,192L34.3,197.3C68.6,203,137,213,206,229.3C274.3,245,343,267,411,256C480,245,549,203,617,208C685.7,213,754,267,823,266.7C891.4,267,960,213,1029,176C1097.1,139,1166,117,1234,122.7C1302.9,128,1371,160,1406,176L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+
+<div class="gallery">
+  <h2> <span>Gallery</span> Wisata Kami</h2>
+
+  <div class="content-gallery">
+    <img src="/img/lele.jpg" alt="">
+    <img src="/img/persawahan.jpeg" alt="">
+    <img src="/img/sungaiiiiiiiiiiiiiiiiiiiiiiiiiiii.jpg" alt="">
+  </div>
+  
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5000ca" fill-opacity="1" d="M0,192L34.3,197.3C68.6,203,137,213,206,229.3C274.3,245,343,267,411,256C480,245,549,203,617,208C685.7,213,754,267,823,266.7C891.4,267,960,213,1029,176C1097.1,139,1166,117,1234,122.7C1302.9,128,1371,160,1406,176L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+
+<div class="profil-dev">
+  <H2>WEB DEVELOPER</H2>
+
+</div>
+<div class="developer">
+  
+  
+    <div class="content-dev">
+      <img src="/img/ghandi2.jpeg" alt="">
+      <h3>Ahmad Ariza Alghandi</h3>
+      <h5>Frontend Developer</h5>
+      <p>"Hai! Nama lengkap saya Ahmad Ariza Alghandi, Mahasiswa Universitas Muhammadiyah Malang. Saya harap Web ini menjadi penglaman berharga untuk memulai karir saya menjadi Fullstack Developer. Terimakasih Progate telah membimbing saya.</p>
+    
+    </div>
+    <div class="content-dev">
+      <img src="/img/faisal.jpeg" alt="">
+      <h3>Muhammad Yusda Faisal Ardhi</h3>
+      <h5>Frontend Developer</h5>
+      <p>"Hai! Nama lengkap saya Ahmad Ariza Alghandi, Mahasiswa Universitas Muhammadiyah Malang. Saya harap Web ini menjadi penglaman berharga untuk memulai karir saya menjadi Fullstack Developer. Terimakasih Progate telah membimbing saya.</p>
+    
+    </div>
+    <div class="content-dev">
+      <img src="/img/nando.jpg" alt="">
+      
+      <h3>Framesta Fernando Wijaya</h3>
+      <h5>Backend Developer</h5>
+      <p>"Hai! Nama lengkap saya Ahmad Ariza Alghandi, Mahasiswa Universitas Muhammadiyah Malang. Saya harap Web ini menjadi penglaman berharga untuk memulai karir saya menjadi Fullstack Developer. Terimakasih Progate telah membimbing saya.</p>
+    
+    </div>
+    <div class="content-dev">
+      <img src="/img/ansar.jpeg" alt="">
+      <h3>Muhammad Ansar Maulidi</h3>
+      <h5>Frontend Developer</h5>
+      <p>"Hai! Nama lengkap saya Ahmad Ariza Alghandi, Mahasiswa Universitas Muhammadiyah Malang. Saya harap Web ini menjadi penglaman berharga untuk memulai karir saya menjadi Fullstack Developer. Terimakasih Progate telah membimbing saya.</p>
+    
+    </div>
+    <div class="content-dev">
+      <img src="/img/dendy.jpg" alt="">
+      <h3>Dendy Irfansyah</h3>
+      <h5>Frontend Developer</h5>
+      
+      <p>"Hai! Nama lengkap saya Ahmad Ariza Alghandi, Mahasiswa Universitas Muhammadiyah Malang. Saya harap Web ini menjadi penglaman berharga untuk memulai karir saya menjadi Fullstack Developer. Terimakasih Progate telah membimbing saya.</p>
+    
+    </div>
+  
+  
+    
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5000ca" fill-opacity="1" d="M0,32L18.5,48C36.9,64,74,96,111,144C147.7,192,185,256,222,277.3C258.5,299,295,277,332,245.3C369.2,213,406,171,443,176C480,181,517,235,554,245.3C590.8,256,628,224,665,213.3C701.5,203,738,213,775,192C812.3,171,849,117,886,122.7C923.1,128,960,192,997,192C1033.8,192,1071,128,1108,106.7C1144.6,85,1182,107,1218,138.7C1255.4,171,1292,213,1329,240C1366.2,267,1403,277,1422,282.7L1440,288L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path></svg>
+<footer>
+  <h2>Development by PMM Kel.65 Gel.3</h2>
+</footer>
+
+</body>
+</html>
+
